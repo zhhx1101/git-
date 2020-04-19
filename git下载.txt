@@ -1,0 +1,1 @@
+https://npm.taobao.org/mirrors/git-for-windows/v2.25.0.windows.1/Git-2.25.0-64-bit.exe
