@@ -34,7 +34,15 @@ git clone git@github.com:zhhx1101/git-note.git
 
 5、git push origin master，本步骤如果报错Updates were rejected ......,就使用git push origin master -f
 
+#### 3、只拉取github中的某个文件夹
 
+1、线在本地创建文件夹，然后git init，git remote add -f origin git@github.com:zhhx1101/xinqiu.git;
+
+2、git config core.sparsecheckout true
+
+3、echo 文件夹名 >> .git/info/sparse-checkout
+
+4、git pull origin master 
 
 
 
