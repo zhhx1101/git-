@@ -18,7 +18,9 @@ git log --decorate --all --oneline --graph
 git branch -d feature  删除分支
 
 git push 本地同步到远程
-git pull origin master
+git pull origin master -f    强制
+
+git reset --hard origin/master     把HEAD指向master最新版本，强制拉去
 
 git clone git@github.com:zhhx1101/git-note.git
 
