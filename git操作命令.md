@@ -4,6 +4,9 @@ git config --global user.name "zhanghongxu"
 git config --global user.email "1085360155@qq.com"
 git status
 git log 
+
+git fectch --all
+
 git log --decorate
 git add *    添加所有 
 git commit -m " "
